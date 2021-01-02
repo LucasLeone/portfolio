@@ -1,0 +1,88 @@
+/* ---------------------------- VARIABLES */
+:root {
+    --color-blue: #1C2127;
+}
+/* ---------------------------- VARIABLES */
+
+
+
+html, body {
+    padding: 0;
+    margin: 0;
+    font-family: Helvetica;
+    background-color: #1c212719;
+}
+
+
+/* ---------------------------- NAVBAR */
+
+.nav {
+    background-color: var(--color-blue);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+
+.img-container img {
+    width: 50%;
+}
+
+.nav ul {
+    display: flex;
+    justify-self: right;
+    padding-right: 20px;
+}
+
+.nav ul li {
+    list-style: none;
+    padding-right: 20px;
+}
+
+.nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.nav ul li a:hover {
+    color: rgb(199, 198, 198);
+}
+
+/* ---------------------------- NAVBAR */
+
+/* ---------------------------- HERO */
+
+.hero {
+    height: 84.8vh;
+    display: grid;
+    grid-template-rows: 1 1fr;
+}
+
+.hero-title {
+    text-align: center;
+    align-self: center;
+}
+
+.hero-title h1 {
+    font-family: fantasy;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+
+.figure {
+    width: 100%;
+    text-align: center;
+}
+
+.figure img {
+    width: 20%;
+    border-radius: 5px;
+}
+
+.figure img:hover {
+    width: 21%;
+    transition: 0.1s;
+}
+
+/* ---------------------------- HERO */
+
