@@ -86,3 +86,40 @@ html, body {
 
 /* ---------------------------- HERO */
 
+/* ---------------------------- PROJECTS */
+
+.projects {
+    display: grid;
+    grid-template-rows: .1fr 1fr;
+}
+
+.projects-title {
+    margin-left: 22%;
+}
+
+.projects-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.project {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: 1px;
+    width: 70%;
+    justify-items: center;
+    align-items: center;
+    margin: 25px 0;
+    padding: 20px;
+}
+
+.project-text {
+    display: grid;
+    grid-template-rows: .6fr .2fr 1fr;
+}
+
+/* ---------------------------- PROJECTS */
+
