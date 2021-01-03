@@ -49,6 +49,7 @@ html, body {
     margin: 0;
     font-family: Helvetica;
     background-color: #1c212719;
+    scroll-behavior: smooth;
 }
 
 
@@ -86,9 +87,6 @@ html, body {
     color: rgb(199, 198, 198);
 }
 
-.nav ul li a:future {
-    transition: all 0.25s cubic-bezier(0.65, 0.05, 0.36, 1);
-}
 
 /* ---------------------------- NAVBAR */
 
@@ -199,8 +197,33 @@ html, body {
     background-color: aqua;
     height: 20px;
     border-radius: 10px;
+    font-size: 14px;
+    text-align: center;
 }
 
+.progress:hover {
+    background-color: rgba(0, 255, 255, 0.9);
+}
+
+
+.python:hover::after {
+    content: '55%';
+}
+.django:hover::after {
+    content: '35%';
+}
+.html:hover::after {
+    content: '40%';
+}
+.css:hover::after {
+    content: '35%';
+}
+.sql:hover::after {
+    content: '20%';
+}
+.git:hover::after {
+    content: '60%';
+}
 
 /* ---------------------------- TOOLS */
 
@@ -242,3 +265,12 @@ html, body {
 
 /* ---------------------------- CONTACT */
   
+/* ---------------------------- RESPONSIVE */
+
+@media screen and (max-width: 1000px) {
+    .bars-cont h4 {
+        font-size: .8em;
+    }
+}
+
+/* ---------------------------- RESPONSIVE */
