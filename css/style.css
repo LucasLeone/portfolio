@@ -378,10 +378,10 @@ html::-webkit-scrollbar-track:active {
 
 @media screen and (max-width: 550px) {
     .hero-title {
-        margin-top: -20px;
+        margin-top: -60px;
     }
     .hero .figure img {
-        width: 45%;
+        width: 55%;
     }
 
     .project {
