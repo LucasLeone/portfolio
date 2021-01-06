@@ -396,6 +396,10 @@ html::-webkit-scrollbar-track:active {
     .contact .info {
         margin-left: 5px;
     }
+
+    .social ul li {
+        margin-left: 15px;
+    }
 }
 
 /* ---------------------------- RESPONSIVE */
