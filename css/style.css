@@ -194,6 +194,16 @@ html::-webkit-scrollbar-track:active {
     grid-template-rows: .6fr .2fr 1fr;
 }
 
+.project-text h3 a {
+    color: black;
+    text-decoration: none;
+}
+
+.project-img a {
+    display: flex;
+    justify-content: center;
+}
+
 /* ---------------------------- PROJECTS */
 
 /* ---------------------------- TOOLS */
