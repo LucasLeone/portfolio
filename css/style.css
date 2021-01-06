@@ -86,8 +86,12 @@ html::-webkit-scrollbar-track:active {
     align-items: center;
 }
 
-.img-container img {
+.img-container {
     width: 50%;
+}
+
+.img-container img {
+    width: 100%;
 }
 
 .nav ul {
@@ -296,6 +300,9 @@ html::-webkit-scrollbar-track:active {
     .nav ul li a {
         font-size: .9em;
     }
+    .img-container  a img {
+        width: 120%;
+    }
 
     .hero-title h1 {
         font-size: 20px;
@@ -324,6 +331,59 @@ html::-webkit-scrollbar-track:active {
     }
     .social ul li a {
         font-size: 28px;
+    }
+}
+
+@media screen and (max-width: 620px) {
+    .nav {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .img-container {
+        display: flex;
+        justify-self: center;
+        align-self: center;
+        margin-right: 8%;
+    }
+    .nav ul {
+        display: flex;
+        justify-self: center;
+    }
+
+    .hero .figure img {
+        width: 35%;
+    }
+    .hero-title h1 {
+        font-size: 1.1em;
+    }
+
+    .projects-cards {
+        margin-top: -45px;
+    }
+    .project-text {
+        grid-template-rows: .3fr .1fr .2fr;
+    }
+
+    .bars-cont h4 {
+        font-size: .7em;
+    }
+    .progressbar {
+        margin-left: 8%;
+    }
+
+    .contact .info {
+        font-size: .7em;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .project {
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+        grid-template-columns: 1fr;
+    }
+    .project-img img {
+        width: 100%;
     }
 }
 
