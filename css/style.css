@@ -48,7 +48,7 @@ html, body {
     padding: 0;
     margin: 0;
     font-family: Helvetica;
-    background-color: #1c212719;
+    background-color: hsl(210, 46%, 95%);
     scroll-behavior: smooth;
 }
 
