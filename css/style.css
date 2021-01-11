@@ -167,9 +167,9 @@ html::-webkit-scrollbar-track:active {
 }
 
 .title {
-    margin-left: 22%;
     display: flex;
     align-items: flex-end;
+    justify-content: center;
 }
 
 .projects-cards {
@@ -210,6 +210,10 @@ html::-webkit-scrollbar-track:active {
 
 /* ---------------------------- TOOLS */
 
+.tools {
+    margin-bottom: 1%;
+}
+
 .tools-container {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
@@ -217,60 +221,38 @@ html::-webkit-scrollbar-track:active {
     margin-bottom: 100px;
 }
 
-.bars-cont {
-    width: 73%;
+.tools-cont {
     display: grid;
-    grid-template-columns: 5% 95%;
-    align-items: center;
-    margin-left: 13%;
+    grid-template-columns: repeat(6, 1fr);
+    justify-items: center;
 }
 
-.progressbar {
-    background-color: black;
-    border-radius: 13px;
-    padding: 3px;
-    height: 20px;
-    margin-left: 3%;
+.tools-cont figure {
+    margin: 0;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
 }
 
-.progress {
-    background-color: aqua;
-    height: 20px;
-    border-radius: 10px;
-    font-size: 14px;
-    text-align: center;
+.tools-cont figure img {
+    width: 20%;
+    transition: .1s;
 }
 
-.progress:hover {
-    background-color: rgba(0, 255, 255, 0.9);
+.tools-cont figure img:hover {
+    -webkit-transform: scale(1.6);
+    -ms-transform: scale(1.6);
+    transform: scale(1.6);
+    transition: 0.1s;
 }
 
-
-.python:hover::after {
-    content: '55%';
-}
-.django:hover::after {
-    content: '35%';
-}
-.html:hover::after {
-    content: '40%';
-}
-.css:hover::after {
-    content: '35%';
-}
-.sql:hover::after {
-    content: '20%';
-}
-.git:hover::after {
-    content: '60%';
-}
 
 /* ---------------------------- TOOLS */
 
 /* ---------------------------- CONTACT */
 
 .contact {
-    margin-top: 50px;
     height: 35vh;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -327,17 +309,6 @@ html::-webkit-scrollbar-track:active {
         grid-template-rows: .4fr .1fr .2fr;
     }
 
-    .bars-cont h4 {
-        font-size: .8em;
-    }
-    .progressbar {
-        height: 16px;
-        margin-left: 5%;
-    }
-    .progress {
-        height: 16px;
-    }
-
     .social {
         margin-right: 25%;
     }
@@ -376,11 +347,8 @@ html::-webkit-scrollbar-track:active {
         grid-template-rows: .3fr .1fr .2fr;
     }
 
-    .bars-cont h4 {
-        font-size: .7em;
-    }
-    .progressbar {
-        margin-left: 8%;
+    .tools-cont {
+        grid-template-columns: repeat(3, 1fr);
     }
 
     .contact .info {
@@ -408,7 +376,6 @@ html::-webkit-scrollbar-track:active {
     .contact .info {
         margin-left: 5px;
     }
-
     .social ul li {
         margin-left: 15px;
     }
