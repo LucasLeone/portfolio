@@ -168,6 +168,8 @@ html::-webkit-scrollbar-track:active {
 
 .title {
     margin-left: 22%;
+    display: flex;
+    align-items: flex-end;
 }
 
 .projects-cards {
