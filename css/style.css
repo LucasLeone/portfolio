@@ -378,7 +378,7 @@ html::-webkit-scrollbar-track:active {
         height: 10vh;
     }
     .contact .info {
-        margin-left: 5px;
+        margin-left: 25%;
     }
     .social ul li {
         margin-left: 15px;
