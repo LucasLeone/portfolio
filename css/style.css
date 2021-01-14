@@ -150,6 +150,7 @@ html::-webkit-scrollbar-track:active {
     width: 20%;
     border-radius: 5px;
     transition: 0.3s;
+    box-shadow: 0px 0px 20px 0px #000000b4;
 }
 
 .figure img:hover {
@@ -187,7 +188,7 @@ html::-webkit-scrollbar-track:active {
     grid-template-columns: 1fr 1fr;
     border: 1px solid black;
     border-radius: 5px;
-    box-shadow: 1px;
+    box-shadow: 0px 0px 20px 0px #0000001f;
     width: 70%;
     justify-items: center;
     align-items: center;
